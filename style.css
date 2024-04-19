@@ -6,7 +6,8 @@ body{
 
     font-size: clamp(0.75rem, 0.3059rem + 1.5789vw, 1.2rem);
 }
-#image{
+
+#imageContainer{
     flex:1;
     display: flex;
 }
@@ -75,7 +76,7 @@ form{
 
 }
 button{
-    
+
     width: clamp(6.5rem, -2.3816rem + 31.5789vw, 15.5rem);
     height: clamp(1.75rem, 0.7632rem + 3.5088vw, 2.75rem);
 
