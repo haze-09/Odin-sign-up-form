@@ -1,0 +1,86 @@
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+
+    font-size: clamp(0.75rem, 0.3059rem + 1.5789vw, 1.2rem);
+}
+#image{
+    flex:1;
+    display: flex;
+}
+img{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#main{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10vw;
+    padding-left: 3.5vw;
+    gap: 6vh;
+}
+
+p{
+    margin: 0;
+}
+
+fieldset{
+    display: flex;
+    appearance: none;
+    position: relative;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.half{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+legend{
+    padding: 0;
+    margin-bottom: 2vh;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 20vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+button{
+    
+    width: clamp(6.5rem, -2.3816rem + 31.5789vw, 15.5rem);
+    height: clamp(1.75rem, 0.7632rem + 3.5088vw, 2.75rem);
+
+    font-size: inherit;
+}
+
+
+
