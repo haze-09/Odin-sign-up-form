@@ -97,25 +97,44 @@ fieldset{
 
 legend{
     padding: 0;
-    margin-bottom: 2vh;
+    font-size: 1.5rem;
+    margin-bottom: 3vh;
     font-weight: 600;
 }
 
 label{
+    font-weight: 500;
     display: flex;
     flex-direction: column;
 }
 
 input{
+    font-family: inherit;
+    font-weight: 300;
     width: 20vw;
+    appearance: none;
+    border: none;
+}
+input:focus{
+
+    outline: none;
+
 }
 
 form{
     display: flex;
     flex-direction: column;
+    background: white;
+    padding: 3vh;
+    border-radius: 20px;
+    box-shadow: 0px 10px 19px 0px rgba(0, 0, 0, 0.233);
     gap: 6vh;
 }
-
+span{
+    margin-top: 2vh;
+    color: red;
+    font-size: .8rem;
+}
 #login{
     display: flex;
     flex-direction: column;
