@@ -31,7 +31,7 @@
                 <div class="half">
                     <label for="firstname">
                         First Name
-                        <input type="text" name="first_name" id="firstname" tabindex="1">
+                        <input type="text" name="first_name" id="firstname" tabindex="1" required>
                     </label>
                     <label for="mail">
                         Email
@@ -39,25 +39,26 @@
                     </label>
                     <label for="pwd">
                         Password
-                        <input type="password" name="pwd" id="pwd" tabindex="5">
+                        <input type="password" name="pwd" id="pwd" tabindex="5" required>
                         <span>* passwords do not match</span>
                     </label>
                 </div>
                 <div class="half">
                     <label for="lastname">
                         Last Name
-                        <input type="text" name="last_name" id="lastname" tabindex="2">
+                        <input type="text" name="last_name" id="lastname" tabindex="2" required>
                     </label>
                     
                     <label for="phNum">
                         Phone Number
-                        <input type="tel" name="phNum" id="phNum" tabindex="4">
+                        <input type="tel" name="phNum" id="phNum" tabindex="4" pattern="[0-9]{10}" required>
                     </label>
                     <label for="cnfPwd">
                         Confirm Password
-                        <input type="password" name="cnfPwd" id="cnfPwd" tabindex="6">
+                        <input type="password" name="cnfPwd" id="cnfPwd" tabindex="6" required>
                     </label>
                 </div>
+            </fieldset>
             </fieldset>
             </fieldset>
             <div id="login">
